@@ -510,7 +510,7 @@ HTML {
   background-color: var(--secondaryColor);
 }
 .footer .container {
-  padding: 0 var(--sectionPadding);
+  padding: 0 calc(var(--sectionPadding) + 10px);
   display: flex;
   justify-content: space-between;
   margin-right: auto;
